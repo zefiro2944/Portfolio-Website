@@ -1,0 +1,170 @@
+@media screen and (min-width: 1520px) {
+  /* Global adjustments */
+  * {
+      font-family: "Josefin Sans", sans-serif;
+      box-sizing: border-box;
+  }
+
+  /* Navigation styles */
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 55px 10%; /* Increased padding */
+      background-color: black;
+  }
+
+  .logo {
+      color: white;
+      font-size: 38px; /* Slightly bigger font size */
+      letter-spacing: 1px;
+      cursor: pointer;
+  }
+
+  nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 12px 30px; /* Slightly increased padding */
+  }
+
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 20px; /* Increased font size */
+  }
+
+  nav ul li a:hover {
+      color: #f9004d;
+      transition: 0.4s;
+  }
+
+  .btn {
+      background-color: #f9004d;
+      color: white;
+      text-decoration: none;
+      border: none;
+      font-weight: bold;
+      padding: 12px 28px; /* Slightly bigger padding */
+      border-radius: 30px;
+      transition: transform 0.4s;
+      font-size: 22px; /* Increased font size */
+  }
+
+  .btn:hover {
+      transform: scale(1.1);
+  }
+
+  /* Title styles */
+  .title {
+      background: #191919;
+  }
+
+  h3 {
+      color: white;
+      text-align: center;
+      font-size: 60px; /* Bigger font size */
+      padding: 70px; /* Increased padding */
+  }
+
+  /* T-chart styles */
+  table {
+      width: 70%; /* Increased width */
+      margin: auto;
+      border-collapse: collapse;
+  }
+
+  th, td {
+      border: 2px solid white;
+      padding: 15px; /* Slightly bigger padding */
+      text-align: left;
+      color: white;
+  }
+
+  th {
+      font-weight: bold;
+      text-align: center;
+      color: #f9004d;
+      font-size: 24px; /* Increased font size */
+  }
+
+  .t-chart {
+      background-color: black;
+      padding: 60px 0; /* Increased vertical padding */
+  }
+
+  /* Link styles */
+  .spacer li {
+      margin-left: 7%; 
+      padding-top: 3%; 
+      padding-right: 7%; 
+      color: white;
+      line-height: 1.1;
+      font-size: large;                            
+  }
+
+  .sector {
+      background-color: black;
+      padding: 0 20%; /* Adjusted padding */
+      padding-bottom: 7%; /* Increased padding */
+  }
+
+  .links {
+      background-color: #191919;
+      border-radius: 25px;
+      transition: 0.4s;
+      padding: 25px; /* Slightly bigger padding */
+  }
+
+  .links p {
+      color: white;
+      font-size: 32px; /* Bigger font size */
+      text-decoration: underline;
+      text-align: center;
+  }
+
+  .points {
+      color: white;
+      font-size: 26px; /* Increased font size */
+      line-height: 1.2;
+      padding-left: 35px; /* Increased padding */
+  }
+
+  /* Footer styles */
+  footer {
+      background-color: #101010;
+  }
+
+  .footerContainer {
+      width: 100%;
+      padding: 70px 40px 30px; /* Increased padding */
+  }
+
+  .icons a {
+      padding: 18px; 
+      width: 65px; 
+      height: 65px; 
+      font-size: 28px; 
+  }
+
+  .icons a i {
+      font-size: 1.3em; 
+  }
+
+  .footerNav ul li a {
+      margin: 25px; /* Slightly increased margin */
+      font-size: 1.4em; /* Bigger font size */
+  }
+
+  .footerBottom {
+      background-color: #000;
+      padding: 25px; /* Increased padding */
+      text-align: center;
+  }
+
+  .designer {
+      font-weight: 400;
+      margin: 0px 6px; /* Slightly increased margin */
+  }
+}

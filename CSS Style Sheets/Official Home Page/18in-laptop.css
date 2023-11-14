@@ -1,0 +1,252 @@
+@media screen and (min-width: 2560px) {
+
+    /* Navigation adjustments */
+    .logo {
+        font-size: 80px;
+    }
+    nav ul li {
+        padding: 40px 35px;
+    }
+    nav ul li a {
+        font-size: 28px;
+    }
+    .btn {
+        padding: 15px 30px;
+        font-size: 30px;
+    }
+
+    /* Intro section */
+    .content {
+        left: 12%;
+    }
+    h1 {
+        font-size: 100px;
+        margin: 30px 0px 30px;
+    }
+    h3 {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+  .newslatter form {
+    width: 650px;  /* Increase the width as per requirement or scale */
+}
+
+.newslatter form input:first-child {
+    padding: 20px 30px 20px 25px;  /* Increase the padding for a larger input field */
+    border-width: 5px;  /* Optionally increase the border thickness for better proportion */
+    font-size: 18px;  /* Optionally increase the font size for better readability */
+}
+
+.newslatter form .fix {
+    padding: 15px 40px;  /* Increase the padding for a larger button */
+    top: 10px;  /* Adjust vertical positioning */
+    right: 10px;  /* Adjust horizontal positioning */
+    font-size: 18px;  /* Increase the font size for better readability */
+}
+
+/* About section */
+.about {
+    padding: 150px 0px;  /* Increase vertical padding for more space above and below */
+}
+
+.about img {
+    width: 580px;  /* Larger image width */
+}
+
+.about-text {
+    width: 750px;  /* Wider area for the text, ensuring it doesn't appear too narrow */
+}
+
+.main {
+    width: 1400px;  /* Wider main content area to accommodate larger image and text */
+}
+
+.about-text h2 {
+    font-size: 85px;  /* Bigger heading for better visibility and emphasis */
+    margin-bottom: 30px;  /* Extra space below the heading for better visual separation */
+}
+
+.about-text h5 {
+    font-size: 26px;  /* Slightly larger subheading */
+    margin-bottom: 35px;  /* Additional spacing below subheading */
+}
+
+.about-text p {
+    font-size: 24px;  /* Larger paragraph text for readability */
+    line-height: 34px;  /* Adjust line-height for improved readability with larger text */
+    margin-bottom: 55px;  /* Added space below paragraph text */
+}
+
+button {
+    padding: 18px 40px;  /* Larger button for a more prominent, clickable area */
+    font-size: 26px;  /* Larger font size for better readability and clickability */
+}
+
+/* Service Section */
+.service {
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.title h2 {
+    font-size: 95px;  /* Increase the title size for better visibility */
+    width: 1400px;  /* Larger width to better align with larger elements below it */
+}
+.box {
+    min-height: 500px;  /* A taller box might accommodate larger cards better */
+}
+.card {
+    height: 700px;  /* Larger cards to prominently display the content */
+    width: 580px;  /* Wider cards to provide more space for text and images */
+    padding: 35px 45px;  /* Increased padding to maintain proportionality with the larger card size */
+}
+.card i {
+    font-size: 70px;  /* Larger icon for visual emphasis */
+    margin-top: 35px;  /* Slightly increased margin for balanced spacing */
+    margin-bottom: 35px;
+}
+h5 {
+    font-size: 28px;  /* Larger subheading for better visibility */
+    margin-bottom: 25px;  /* Additional spacing to avoid cramping */
+}
+.pra p {
+    font-size: 23px;  /* Larger paragraph text for readability */
+    line-height: 32px;  /* Ample line-height to accommodate the larger text size */
+    margin-bottom: 35px;  /* Extra space below paragraphs */
+}
+.card .button {
+    padding: 13px 30px;  /* Larger button for a more clickable area */
+    font-size: 18px;  /* Slightly larger text within the button for readability */
+}
+
+/*the start of "contact me" section*/
+.contact-me {
+    width: 100%;
+    height: 400px; /* Increased height for better vertical spacing on larger screens */
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    color: white;
+    font-size: 32px; /* Increased font size for visibility on larger screens */
+    font-weight: bold;
+    margin-bottom: 35px; /* Added more vertical space below the text */
+    text-align: center;
+    padding-right: 100px; /* More horizontal padding to potentially allow for longer or larger text */
+    padding-left: 100px;
+}
+
+.contact-me .button-two {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 12px 30px; /* Larger button for easier interaction and better visual weight */
+    border-radius: 30px;
+    transition: .4s;
+    font-size: 28px; /* Larger text for better readability */
+    margin-top: 15px; /* Added a bit more space above the button */
+}
+
+.contact-me .button-two:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+
+/* footer section ---------------------------------------*/
+footer {
+    background-color: #101010;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 80px 50px 40px; /* Slightly increased padding for better spacing on large screens */
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.icons a {
+    text-decoration: none;
+    padding: 20px;  /* Larger padding for bigger clickable/tappable area */
+    background-color: #f9004d;
+    margin: 20px;  /* A bit more spacing between icons */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px; /* Bigger icon containers */
+    height: 80px;
+    color: white;
+    font-size: 32px;  /* Bigger font-size for icons */
+    transition: 0.3s; 
+}
+
+.icons a i {
+    font-size: 1.5em;  /* Bigger font-size for icons */
+    color: white;
+    opacity: 0.9;
+}
+
+.icons a:hover {
+    transform: scale(1.3);
+    color: white;
+    background-color: #f9004d; 
+}
+
+.footerNav {
+    margin: 40px 0; /* Slightly more vertical space */
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 25px;  /* More spacing between nav items */
+    text-decoration: none;
+    font-size: 1.5em;  /* Bigger font size for better readability */
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 30px;  /* More padding for better vertical space */
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;    
+    font-size: 18px;  /* Adjust font size as per requirement */
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    font-size: 16px;  /* Adjust font size as per requirement */
+}
+
+}

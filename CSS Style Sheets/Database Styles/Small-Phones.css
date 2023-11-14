@@ -1,0 +1,93 @@
+@media (max-width: 393px) and (max-height: 851px) {
+     /* Adjust navigation styles for larger phones */
+     nav {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+  
+    .logo {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+  
+    nav ul {
+        text-align: center;
+        padding-top: 12px;
+    }
+  
+    nav ul li {
+        padding: 8px 12px;
+        display: block; 
+    }
+  
+    .btn {
+        display: block;
+        margin: 12px auto; /* Centering the button */
+        font-size: 18px;
+    }
+/* main  section -----------*/ 
+    h3 {
+        font-size: 35px;
+        padding: 30px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    th {
+        font-size: 16px;
+    }
+/* links section -----------*/ 
+    .sector {
+        padding-left: 5%;  /* Decreasing padding to provide more space */
+        padding-right: 5%;
+    }
+
+    .links p {
+        font-size: 21px;  /* Decreasing font size for smaller screens */
+    }
+
+    .points {
+        font-size: 18px;  /* Decreasing font size for smaller screens */
+        padding-left: 20px;  /* Adjusting padding */
+    }
+
+    .points li a {
+        word-break: break-word;  /* Breaking links into new lines if needed */
+        display: inline-block;  /* Preventing breaking of link text */
+    }
+
+
+ /* footer section -----------*/ 
+ footer .icons a {
+    padding: 8px;  /* Decreased padding slightly to save space */
+    width: 50px;  /* Slightly smaller icons for a smaller viewport */
+    height: 50px;
+    margin: 5px;  /* Less margin to save space but maintain touchability */
+}
+.icons a i {
+    font-size: 1.3em;  /* Adjusted font size for icon to match new box size */
+}
+    .footerNav ul {
+        flex-direction: column;
+    }
+  
+    .footerNav ul li {
+      width: 100%;
+      text-align: center;
+      margin: 12px;
+    }
+    .footerNav ul li a {
+        padding-right: 19px;
+    } 
+
+  
+    .footerBottom {
+        line-height: 1.6;
+    }
+  
+    .designer {
+        display: block;
+    }
+}

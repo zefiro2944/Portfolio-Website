@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box; /* Corrected from 'borderbox' */
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: black;
+  padding-bottom: 45px;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: #f9004d;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  color: #f9004d;
+  transition: 4s;
+}
+.btn {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+  font-size: 20px;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+/* everything Above is the Menu Webpage*/
+
+/*start of "Learn More Section" */ 
+header { 
+  margin: auto;
+  background-color: #191919;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  padding: 60px;
+}
+
+  /*Start of main content section*/ 
+main{
+display: flex;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 3%;
+padding-bottom: 17%;
+}
+
+/*  all css below all within left-side content*/
+.Label {
+font-weight: bold;
+font-style: italic;
+text-decoration: underline;
+color: white;
+font-size: xx-large
+}
+p { 
+color: white;
+font-size: larger;
+}
+.pitch  {
+color: white;
+margin-left: 30px;
+font-size: x-large;
+}
+.left-side {  
+width: 60%;
+}
+
+.left-side {
+  background-color: #101010;
+  border: 3px#f9004d solid;
+  color: #000;
+  padding: 25px;
+  border-radius: 15px;
+  transform: translate(-2%);    
+  }
+/* start of RIGHT-SIDE content */
+.right-side {
+  position: relative;
+  height: 500px;
+  width: 40%;
+}
+
+.right-side img {
+  border: 1px solid black;
+  height: 400px;
+  width: 420px;
+  position: absolute; 
+  border-radius: 15px;
+}
+
+#item1 {
+  top: 100px;
+  left: 100px;
+}
+
+#item2 {
+  top: 200px;
+  left: 225px;
+}
+
+#item3 {
+  top: 300px;
+  left: 350px;
+}
+.right-side {
+  transform: translateX(5%);         /* Moves the element 50px to the right */
+  transform: translateY(20%);      /* Moves the element 50px downwards */
+  }
+
+/* footer section --------------------------*/
+
+footer {
+background-color: #101010;
+}
+.footerContainer {
+  width: 100%;
+  padding: 60px 30px 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.icons a {
+  text-decoration: none;
+  padding: 15px; 
+  background-color: #f9004d;
+  margin: 15px; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; 
+  height: 60px; 
+  color: white; 
+  font-size: 24px; 
+  transition: 0.3s; 
+}
+
+.icons a i {
+  font-size: 1.5em; /* Adjust font size for bigger icons */
+  color: white;
+  opacity: 0.9;
+}
+
+.icons a:hover {
+  transform: scale(1.3);
+  color: white;
+  background-color: #f9004d; 
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+display: flex;
+justify-content: center;
+list-style-type: none;  /* do i add disc here*/ 
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7; /* the opacity is making it darker color*/ 
+  transition: 0.5s;
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+text-align: center;
+}
+.footerBottom p {
+color: white;    
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}

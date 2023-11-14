@@ -1,0 +1,93 @@
+ /*------------------------DESIGNED FOR LAPTOPS MIN OF 18in laptop screen sizes*/
+ @media screen and (min-width: 2560px) and (min-height: 1440px) {
+    nav {
+        padding-top: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 60px;
+    }
+    .logo {
+        font-size: 60px;
+    }
+    nav ul li {
+        padding: 5px 15px;
+    }
+nav ul li a{
+    font-size: 26px;
+}
+.btn { 
+
+    font-size: 28px;
+}
+ /* All css coding below is designed for the main Page*/
+ .title {
+    background: #191919;
+    margin: 0%;
+    padding: 0%;
+}
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 75px;
+        padding: 80px;
+    } 
+
+/* -----------------------------*/
+.box-one h2 {
+color: white;
+text-align: center;
+font-size: 50px;
+}
+
+.box-one p {
+    font-size: 34px; 
+    color: white;
+    text-align: center;
+    }
+
+.box-one {
+    border: 3px outset rgba(249, 0, 77, 0.65); /* #f9004d with 50% opacity */
+    padding: 35px;
+}
+/* start of new coding section; featured Projects*/ 
+
+#title-three {
+    font-size: 62px;
+    padding: 75px; 
+}
+.right-content p {
+    font-size: 40px;
+}
+/* footer section --------------------------*/
+
+.footerContainer {
+    padding: 80px 60px 40px; /* Increased padding for larger screens */
+}
+.icons a {
+    padding: 54px; /* Increased padding for larger icons */
+    margin: 20px; /* Increased margin for larger icons */
+    width: 50px; /* Increased width for larger icons */
+    height: 50px; /* Increased height for larger icons */
+    font-size: 36px; /* Adjusted font size for larger icons */
+}
+.icons a i {
+    font-size: 1.7em; /* Adjusted font size for bigger icons */
+}
+.footerNav {
+    margin: 40px 0; /* Increased margin for larger screens */
+}
+.footerNav ul li a {
+    margin: 30px; /* Increased margin for larger screens */
+    font-size: 1.8em; /* Adjusted font size for larger screens */
+}
+.footerBottom {
+    padding: 40px; /* Increased padding for larger screens */
+}
+.footerBottom p {
+    font-size: 1.3em; /* Adjusted font size for larger screens */
+}
+.designer {
+    margin: 0px 10px; /* Increased margin for larger screens */
+    font-size: 1.2em; /* Adjusted font size for larger screens */
+}
+ }

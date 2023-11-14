@@ -1,0 +1,34 @@
+@media screen and (min-width: 1280px) and (min-height: 800px)  {
+    /* Add or modify CSS rules here */
+    nav {
+        padding-top: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 40px;
+    }
+    .logo {
+        font-size: 55px; /* Adjust font size for smaller screens */
+    }
+    nav ul li {
+        padding: 5px 15px;
+    }
+nav ul li a{
+    font-size: 22px;
+}
+
+.box-one {
+    border: 3px outset rgba(249, 0, 77, 0.65); /* #f9004d with 50% opacity */
+}
+.box-one p {
+font-size: 20px; 
+}
+.box-one h2 {
+font-size: 30px;
+}
+.right-content p {
+    color: white;
+    font-size: 25.5px;
+    max-width: 100%;
+    overflow: hidden; 
+}
+  }

@@ -1,0 +1,121 @@
+@media screen and (max-width: 1279px) {
+    /* Navigation */
+     nav {
+        padding-left: 3%;  /* Reduce the left and right padding */
+        padding-right: 3%;
+    }
+    
+    .logo {
+        font-size: 34px; /* slightly reduce font-size if needed */
+    }
+    
+    nav ul li {
+        padding: 8px 12px; /* slightly reduce padding */
+    }
+
+    nav ul li a {
+        font-size: 20px; /* slightly reduce font-size if needed */
+    }
+/* About section */
+.about {
+    padding: 80px 0px;
+}
+
+.about img {
+    width: 380px;
+}
+
+.about-text h2 {
+    font-size: clamp(55px, 4vw, 58px);  /* Ranges from 48px at the smallest to 58px at the largest */
+}
+
+.about-text h5 {
+    font-size: clamp(21px, 1.6vw, 22px);  /* Ranges from 18px at the smallest to 22px at the largest */
+}
+
+.about-text p {
+    font-size: clamp(19px, 1.4vw, 20px);  /* Ranges from 16px at the smallest to 20px at the largest */
+    line-height: 26px;
+}
+
+
+
+
+.about .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* To center-align content in case they aren't full width */
+}
+
+.about img {
+    display: block;  /* Image will take up the full width of its container and be displayed as a block */
+    margin: 0 auto;  /* Centers the image */
+    width: 80%;  /* Optionally, you can set a maximum width percentage for smaller screens */
+    max-width: 380px;  /* The image won't exceed this width */
+}
+
+
+
+
+/*   Service Section Start Here  ---------------*/
+.service {
+    padding-bottom: 45px;
+    padding-top: 25px;
+}
+
+.title h2 {
+    font-size: 38px; /* Reduced font size */
+    width: 92%; /* Slightly adjusted width */
+    margin: 12px auto; /* Reduced margin */
+}
+
+.box {
+    flex-direction: column;
+}
+
+.card i {
+    font-size: 28px; /* Reduced icon size */
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h5 {
+    font-size: 20px; /* Reduced font size */
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+.pra p {
+    font-size: 21px;
+    line-height: 21px; /* Adjusted line-height */
+    margin-bottom: 18px; /* Adjusted margin */
+}
+
+.card {
+    width: 92%; /* Slightly increased width */
+    padding: 9px 14px; /* Adjusted padding */
+    margin: 4px 0;
+    padding-bottom: 45px; /* Adjusted padding-bottom */
+    height: 410px; /* Adjusted height */
+}
+
+.card .button {
+    padding: 6px 17px; /* Adjusted padding */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,42 @@
+@media screen and (max-width: 1279px) 
+{
+    /* Adjusting navigation styles for specific viewport size */
+
+/* start of "Learn More Section" */ 
+header { 
+margin: auto;
+background-color: #191919;
+}
+h1 {
+color: white;
+text-align: center;
+font-size: 45px;
+padding: 55px;
+}
+
+/*Start of main content section*/ 
+main {
+display: flex;
+justify-content: center;  /* Center .left-side horizontally */
+align-items: center;      /* Center .left-side vertically */
+height: auto;            /* Make main take the full viewport height */
+padding: 5%;              /* This provides a padding border around the main */
+background-position: center;
+height: 100vh;
+}
+
+/*  all css below all within left-side content*/
+.left-side {
+padding: 3%;   /* 5% padding border around .left-side */
+max-width: 100%; /* Prevent it from becoming too wide. Adjust this value as necessary */
+text-align:left; /* This will center the text content inside the .left-side */
+transform: none;
+}
+/* start of RIGHT-SIDE content */
+.right-side {
+display: none;
+}
+
+}
+
+

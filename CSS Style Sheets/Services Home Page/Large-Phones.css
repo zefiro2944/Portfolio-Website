@@ -1,0 +1,125 @@
+/*------------------------THIS IS FOR THE GALAXY S20 ULTRA & IPHONE 13 PRO MAX  VIEWPORT: 428 x 926*/
+@media screen and (max-width: 428px) and (max-height: 926px)
+{
+
+  nav {
+      display: flex;
+      flex-direction: column; /* To stack menu items vertically */
+      align-items: center; 
+      padding-top: 15px;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 20px;
+  }
+.logo {
+  font-size: 33px; 
+  padding-top: 7px;
+}
+nav ul li {
+  padding: 18px 15px;
+}
+
+.btn {
+  font-size: 16px; 
+  padding-top: 8px;
+}
+
+.title h3 {
+  font-size: 32px;
+  padding: 40px;
+}
+
+.section-two {
+  padding: 10px; 
+}
+
+.box-one {
+  top: 10%; 
+  left: 10%; 
+  right: 10%; 
+  transform: translate(-10%, -10%, -10%);
+  padding: 10px;
+}
+
+.box-one h2 {
+  font-size: 23px; 
+}
+
+.box-one p {
+  font-size: 18px; 
+}
+
+#LM-button {
+  padding-bottom: 10px;
+}
+.box-one {
+  border: 3px outset rgba(249, 0, 77, 0.65); /* #f9004d with 50% opacity */
+}
+#title-three {
+  font-size: 30px;
+  padding: 40px;
+}
+
+main {
+  padding: 5% 4% 5% 4%;
+  display: block; /* Change to block display for better mobile view */
+  background-color: black;
+}
+
+.area {
+  display: block; /* Change to block display for better mobile view */
+  width: 100%;
+  height: auto; /* Adjust height for content */
+}
+
+.left-content-link {
+  width: 100%;
+  /*
+  background-image: url('images/FrontendDev_Proj1.JPG');*/ 
+  background-size: cover; /*adjust the size*/
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  padding: 15px;
+  height: 30vh;
+}
+
+.right-content-link {
+  width: 100%;
+  background-color: #191919;
+  padding: 18px;
+  overflow: hidden;
+}
+
+#right-title {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.right-content p {
+  line-height: 1;
+  color: white;
+  font-size: 20px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.footerNav ul {
+  flex-direction: column;
+}
+
+.footerNav ul li {
+width: 100%;
+text-align: center;
+margin: 10px;
+}
+.footerBottom {
+line-height: 1.5;
+}
+.designer {
+display: block;
+}
+.footerContainer {
+  width: 100%;
+  padding: 30px 30px 10px;
+}
+}

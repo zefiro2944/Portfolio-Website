@@ -1,0 +1,117 @@
+@media screen and (min-width: 1520px) {
+    /* Navigation adjustments */
+    .logo {
+        font-size: 50px;
+    }
+    nav ul li {
+        padding: 15px 35px;
+    }
+    nav ul li a {
+        font-size: 23px;
+    }
+    .btn {
+        padding: 15px 30px;
+        font-size: 22px;
+    }
+
+/*start of intro section --------*/ 
+    .content {
+        left: 12%; /* Adding a bit more space on larger screens */
+    }
+    h1 { 
+        font-size: 80px; /* Increasing font size for better visibility on larger screens */
+        margin: 30px 0px 30px; /* A bit more vertical margin might look better on larger screens */
+    }
+    h3 {
+        font-size: 30px; /* Bumping up the size slightly for larger screens */
+        margin-bottom: 60px; /* Adding a bit more space below the heading */
+    }
+    h4 {
+        font-size: 24px; /* Increasing font size for better visibility */
+    }
+    .newslatter form { 
+        width: 480px; /* Increasing width while respecting the max-width of 100% */
+    }
+    .newslatter form input:first-child {
+        padding: 16px 25px 16px 20px; /* Slightly larger padding for a larger input field */
+        border-width: 4px; /* A bit bolder border might suit larger screens better */
+    }
+    .newslatter form .fix {
+        padding: 12px 35px; /* Slightly larger padding */
+        top: 8px; /* Adjusting alignment */
+        right: 8px; /* Adjusting alignment */
+    }
+
+/*About section start --------*/ 
+    .about {
+        padding: 120px 0px;
+    }
+    .about img {
+        width: 480px;  /* Bigger image size for larger screens */
+    }
+    .about-text {
+        width: 650px; /* Increase the text area width for better line length */
+    }
+    .main {
+        width: 1200px;  /* Enlarging the main container */
+    }
+    .about-text h2 {
+        font-size: 75px;  /* Slightly larger title */
+        margin-bottom: 25px; /* A bit more space below the title */
+    }
+    .about-text h5 {
+        font-size: 24px;  /* Increase the subtitle size for better readability */
+        margin-bottom: 30px; /* Added more space below the subtitle */
+    }
+    .about-text p {
+        font-size: 22px; /* Enlarging the paragraph text for readability */
+        line-height: 30px;  /* Adequate line spacing for the larger font */
+        margin-bottom: 50px;  /* More space between text and button */
+    }
+    button {
+        padding: 15px 35px;  /* Bigger button - easier to click */
+        font-size: larger;
+    }
+
+/*Service Section Start Here -----------*/ 
+.service {
+        padding-bottom: 120px;
+        padding-top: 75px;
+    }
+    .title h2 {
+        font-size: 85px;
+        width: 1300px; /* increased width for larger screens */
+    }
+    .box {
+        min-height: 450px;
+    }
+    .card {
+        height: 600px;
+        width: 500px;
+        padding: 30px 40px; /* adding a bit more padding */
+    }
+    .card i {
+        font-size: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    h5 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .pra p {
+        font-size: 19px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .card .button {
+        padding: 11px 25px;
+    }
+
+/* footer section ---------------------------------------*/
+    .footerNav ul li a { 
+        font-size: 1.5em;
+    }
+   
+
+}

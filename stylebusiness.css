@@ -1,0 +1,114 @@
+.business {
+    background-color: black;
+}
+ #service {
+    background: #191919;
+color: white;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 45px;
+}
+.description {
+    color: white;
+    border-radius: 20px;
+    padding-bottom: 23px;
+    padding-top: 23px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    background: lightslategray;
+    margin: 200px;
+    margin-top: -2px;
+    line-height: 1.3;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+#case-study {
+    color: black;
+    text-align: left;
+    padding-left: 120px;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.part-two h2 {
+padding: 70px;
+background: #191919;
+text-align: center;
+margin-bottom: 50px;
+color: #f9004d;
+font-size: 60px;
+text-decoration: underline;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.part-two { /*this is for all the small body paragraphs*/
+    width: 100%;
+    height: max-content;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+h6 { /*these are all the paragraphs header section/title */
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-left: 60px;
+    text-decoration: underline;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.part-two p {
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 1.5;
+    margin: 0px;
+}
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.photo-desc { /* the photos with a description at the bottom of it*/
+    text-align: center;
+    margin-top: -1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: lightgrey;
+    font-style: italic;
+
+}
+/* the following three style blocks is for the the excel file/photo */
+.image-block {
+    position: relative;
+  }
+  
+  .image-block img {
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+  
+  .image-block a {
+    position: absolute;
+    bottom: 18px;
+    left: 143px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-decoration: underline;
+    z-index: 2;
+    font-size: 25px;
+  }
+  .revert {
+    font-size: xx-large;
+  }
+
+  

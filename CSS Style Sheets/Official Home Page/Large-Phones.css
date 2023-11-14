@@ -1,0 +1,146 @@
+@media screen and (max-width: 428px) and (max-height: 926px) {
+    /* Navigation */
+    nav {
+        padding-top: 25px;
+        padding-bottom: 35px;
+    }
+    .logo {
+        font-size: 32px;
+    }
+    nav ul li a {
+        font-size: 19px;
+    }
+.btn {
+    text-align: center;
+}
+    /* Intro Section */
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    h4 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+ .content {
+    margin-top: 360px;
+ }
+
+    /* About Section ------------- */
+    .about {
+        padding: 60px 0px;
+    }
+
+    .about img {
+        width: 300px;  /* Reducing the width for smaller screens */
+        display: block;
+        margin: 0 auto; /* Centering the image */
+    }
+
+    .about-text {
+        width: 100%;  /* Making it full width on smaller screens */
+        padding: 0 15px;  /* Adding some side padding for text spacing */
+    }
+
+    .main {
+        width: 100%;
+        flex-direction: column; /* Changing direction to column so the image and text stack */
+        padding: 0 15px;  /* Adding some side padding for general spacing */
+    }
+
+    .about-text h2 {
+        font-size: 48px; /* Reducing the font size for smaller screens */
+        margin-top: 17px;
+        margin-bottom: 15px;
+    }
+
+    .about-text h5 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .about-text p {
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    button {
+        padding: 10px 20px;  /* Adjusting the padding for the button */
+        display: block; /* Making the button block level */
+        margin: 0 auto; /* Centering the button */
+        font-size: 22px; 
+    }
+/* Service Section Start Here  */
+.service {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.title h2 {
+    font-size: 42px;
+    width: 90%; /* Reduce the fixed width to a percentage for responsiveness */
+    margin: 15px auto;
+}
+.box {
+    flex-direction: column; /* Stack the cards vertically */
+}
+.card i {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.pra p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.card {
+    width: 90%; /* Give a bit of margin on the sides */
+    padding: 10px 15px;
+    margin: 5px 0; /* Vertical margin only as the cards will be stacked */
+    padding-bottom: 50px;  /* increased padding-bottom */
+    height: 420px;  /* increased height */
+}
+.card .button {
+    padding: 7px 18px;
+}
+    /* Contact Me Section -------------------*/
+    .contact-me p {
+        font-size: 19px;
+        line-height: 1.2;
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+    .contact-me {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact-me .button-two {
+        padding: 6px 16px;
+        font-size: 21px;
+        margin-top: 5px;
+    }
+
+ /* Adjusting footer ---------*/
+ .footerNav ul {
+    flex-direction: column;
+    }
+    .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    }
+    .footerBottom {
+    line-height: 1.5;
+    }
+    .designer {
+    display: block;
+    }
+}

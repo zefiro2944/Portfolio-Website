@@ -1,0 +1,82 @@
+@media (max-width: 390px) and (max-height: 844px) {
+  /* Adjusting navigation styles for mobile */
+  nav {
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+  nav ul li {
+    padding: 5px 15px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 8px 20px;
+    text-align: center;
+  }
+
+
+  /* Adjusting main header */
+  header h1 {
+    font-size: 40px;
+    padding: 40px 20px;
+  }
+
+  /* Adjusting main content */
+  main {
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+
+  .left-side, .right-side {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Label {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .pitch {
+    font-size: larger;
+  }
+
+  /* Adjusting right side images */
+  .right-side img {
+    display: none;
+}
+  /* Adjusting footer */
+.footerNav ul {
+flex-direction: column;
+}
+.footerNav ul li {
+width: 100%;
+text-align: center;
+margin: 10px;
+}
+.footerBottom {
+line-height: 1.5;
+}
+.designer {
+display: block;
+}
+}
+
+  

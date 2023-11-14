@@ -1,0 +1,179 @@
+@media screen and (min-width: 2560px) and (min-height: 1440px) {
+    /* Global adjustments */
+    * {
+        font-family: "Josefin Sans", sans-serif;
+        box-sizing: border-box;
+    }
+
+    /* Navigation styles */
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 75px 15%; /* Significantly increased padding */
+        background-color: black;
+    }
+
+    .logo {
+        color: white;
+        font-size: 56px; /* Larger font size */
+        letter-spacing: 1.2px;
+        cursor: pointer;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 15px 40px; /* Increased padding */
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 29px; /* Larger font size */
+    }
+
+    nav ul li a:hover {
+        color: #f9004d;
+        transition: 0.4s;
+    }
+
+    .btn {
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: none;
+        font-weight: bold;
+        padding: 15px 35px; /* Larger padding */
+        border-radius: 35px;
+        transition: transform 0.4s;
+        font-size: 32px; /* Larger font size */
+    }
+
+    .btn:hover {
+        transform: scale(1.1);
+    }
+
+    /* Title styles */
+    .title {
+        background: #191919;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 75px; /* Much bigger font size */
+        padding: 90px; /* Significantly increased padding */
+    }
+
+    /* T-chart styles */
+    table {
+        width: 80%; /* Increased width */
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 2px solid white;
+        padding: 20px; /* Larger padding */
+        text-align: left;
+        color: white;
+        font-size: 22px; /* Bigger font size */
+    }
+
+    th {
+        font-weight: bold;
+        text-align: center;
+        color: #f9004d;
+        font-size: 28px; /* Larger font size */
+    }
+
+    .t-chart {
+        background-color: black;
+        padding: 80px 0; /* Significantly increased vertical padding */
+    }
+
+    /* Link styles */
+    .spacer li {
+        margin-left: 10%; 
+        padding-top: 4%; 
+        padding-right: 10%; 
+        color: white;
+        font-size: 28px; /* Bigger font size */
+        line-height: 1.3;
+    }
+
+    .sector {
+        background-color: black;
+        padding: 0 25%; /* Increased padding */
+        padding-bottom: 8%;
+    }
+
+    .links {
+        background-color: #191919;
+        border-radius: 30px;
+        transition: 0.4s;
+        padding: 35px; /* Bigger padding */
+    }
+
+    .links p {
+        color: white;
+        font-size: 45px; /* Much bigger font size */
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .points {
+        color: white;
+        font-size: 30px; /* Bigger font size */
+        line-height: 1.3;
+        padding-left: 45px; /* Increased padding */
+    }
+    .points li a {
+        font-size: larger;
+    }
+
+    /* Footer styles */
+    footer {
+        background-color: #101010;
+    }
+
+    .footerContainer {
+        width: 100%;
+        padding: 90px 50px 40px; /* Significantly increased padding */
+    }
+
+    .icons a {
+        padding: 20px; 
+        width: 75px; 
+        height: 75px; 
+        font-size: 32px; 
+    }
+
+    .icons a i {
+        font-size: 1.5em; 
+    }
+
+    .footerNav ul li a {
+        margin: 30px; /* Increased margin */
+        font-size: 2.0em; /* Bigger font size */
+    }
+
+    .footerBottom {
+        background-color: #000;
+        padding: 35px; /* Increased padding */
+        text-align: center;
+        font-size: 25px; /* Bigger font size */
+    }
+
+    .designer {
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1.5px; /* Slight increase for better spacing on larger screens */
+        font-weight: 400;
+        margin: 0px 10px; /* Increased margin for better spacing */
+        font-size: 20px; /* Increased font size for larger screens */
+    }
+}

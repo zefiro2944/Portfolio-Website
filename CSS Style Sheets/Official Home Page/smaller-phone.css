@@ -1,0 +1,186 @@
+@media (max-width: 304px) {
+    nav {
+        padding-top: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        font-size: 30px;
+        order: 1;  /* This ensures the logo stays on top */
+    }
+    nav ul {
+        order: 2; /* This ensures the navigation list stays below the logo */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    nav ul li {
+        padding: 8px 15px;
+        text-align: center;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    .btn {
+        font-size: smaller;
+        order: 3; /* This ensures the button stays below the navigation list */
+    }
+
+/* start of intro section- ---------*/ 
+h1 {
+    font-size: 45px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,  /* top left */
+                  1px -1px 0 #000,   /* top right */
+                 -1px 1px 0 #000,    /* bottom left */
+                  1px 1px 0 #000;    /* bottom right */
+}
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px; /* Adjust this value to bring the .newslatter closer or further away from the h3 */
+    }    
+    h4 {
+        margin-top: 13px;
+        font-size: 18px;
+        color: #f9004d;
+        }
+    .newslatter form {
+        width: 250px;
+    }
+    .newslatter form input:first-child {
+        padding: 10px 15px 10px 10px;
+    }
+    .newslatter form .fix {
+        padding: 8px 20px;
+        top: 5px;
+        right: 4px;
+    }
+    .content {
+        margin-top: 200px; /* Adjust this value according to the height of your navigation */
+    }
+    /* About Section */
+        .about {
+            padding: 60px 0px;
+        }
+    
+        .about img {
+            width: 210px;  /* Reducing the width for smaller screens */
+            display: block;
+            margin: 0 auto; /* Centering the image */
+        }
+    
+        .about-text {
+            width: 100%;  /* Making it full width on smaller screens */
+            padding: 0 15px;  /* Adding some side padding for text spacing */
+        }
+    
+        .main {
+            width: 100%;
+            flex-direction: column; /* Changing direction to column so the image and text stack */
+            padding: 0 15px;  /* Adding some side padding for general spacing */
+        }
+    
+        .about-text h2 {
+            font-size: 40px; /* Reducing the font size for smaller screens */
+            margin-top: 17px;
+            margin-bottom: 15px;
+        }
+    
+        .about-text h5 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    
+        .about-text p {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+    
+/*   Service Section Start Here  */
+.service {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.title h2 {
+    font-size: 42px;
+    width: 90%; /* Reduce the fixed width to a percentage for responsiveness */
+    margin: 15px auto;
+}
+
+.box {
+    flex-direction: column; /* Stack the cards vertically */
+}
+
+.card i {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.pra p {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 90%; /* Give a bit of margin on the sides */
+    padding: 10px 15px;
+    margin: 5px 0; /* Vertical margin only as the cards will be stacked */
+    padding-bottom: 50px;  /* increased padding-bottom */
+    height: 600px;  /* increased height */
+}
+
+.card .button {
+    padding: 7px 18px;
+}
+
+/*the start of "contact me" section*/
+.contact-me {
+    height: auto;  /* auto will adjust height based on content */
+    padding: 20px 0;  /* Add some padding top and bottom for breathing space */
+}
+
+.contact-me p {
+    font-size: 18px;  /* Reduce font size for smaller screens */
+    line-height: 1.15;
+    margin-bottom: 15px;
+    padding-right: 15px;  /* Reduce padding for smaller screens */
+    padding-left: 15px;
+}
+
+.contact-me .button-two {
+    padding: 7px 18px;  /* Adjust padding to look better on small screens */
+    font-size: 20px;  /* Reduce font size a bit */
+    margin-top: 5px;
+}
+
+ /* Adjusting footer */
+ .footerNav ul {
+    flex-direction: column;
+    }
+    .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    }
+    .footerBottom {
+    line-height: 1.5;
+    }
+    .designer {
+    display: block;
+    }
+}
